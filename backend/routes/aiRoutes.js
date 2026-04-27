@@ -26,6 +26,15 @@ router.post('/recommend', async (req, res) => {
 
   } catch (error) {
     console.error("AI Error:", error);
+
+    // ✅ Handle Gemini overload error
+  if (error.status === 503) {
+    return res.status(503).json({
+      message: "AI is busy right now. Please try again in a few seconds."
+    });
+  }
+
+  // Default error
     res.status(500).json({ message: 'Failed to fetch recommendation from AI' });
   }
 });
