@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { Container, TextField, Button, Typography, Box, Alert } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import axios from '../axios';
 import AuthContext from '../context/AuthContext';
 
 const AddMoviePage = () => {

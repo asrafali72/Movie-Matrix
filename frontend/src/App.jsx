@@ -12,6 +12,7 @@ import AIRecommendationPage from './pages/AIRecommendationPage';
 import { Fab } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+//import axios from '../axios';
 
 const App = () => {
   const navigate = useNavigate();

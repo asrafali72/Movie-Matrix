@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Container, TextField, Button, Typography, Box, Alert, CircularProgress } from '@mui/material';
 import { useNavigate, useParams } from 'react-router-dom';
-import axios from 'axios'; // Or from 'axios' depending on your setup
+import axios from '../axios'; // Or from 'axios' depending on your setup
 import AuthContext from '../context/AuthContext';
 
 const EditMoviePage = () => {

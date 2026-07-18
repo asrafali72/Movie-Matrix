@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, TextField, Button, Grid, Typography, Box } from '@mui/material';
-import axios from 'axios';
+import axios from '../axios';
 import MovieCard from '../components/MovieCard';
 
 const SearchPage = () => {

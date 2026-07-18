@@ -86,7 +86,7 @@
 import React, { useContext } from 'react';
 import { Card, CardContent, CardMedia, Typography, Rating, Box, Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios'; // Or 'axios' depending on your setup
+import axios from '../axios'; // Or 'axios' depending on your setup
 import AuthContext from '../context/AuthContext';
 
 const MovieCard = ({ movie }) => {

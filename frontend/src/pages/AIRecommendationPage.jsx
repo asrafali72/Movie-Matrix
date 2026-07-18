@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Typography, TextField, Button, Box, Paper, CircularProgress } from '@mui/material';
-import axios from 'axios'; // Your custom axios setup
+import axios from '../axios'; // Your custom axios setup
 
 const AIRecommendationPage = () => {
   const [prompt, setPrompt] = useState('');

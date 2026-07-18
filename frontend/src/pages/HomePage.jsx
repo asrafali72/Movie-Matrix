@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Grid, Typography, CircularProgress, Alert, Box, FormControl, InputLabel, Select, MenuItem, Button } from '@mui/material';
-import axios from 'axios';
+import axios from '../axios';
 import MovieCard from '../components/MovieCard';
 
 const HomePage = () => {
