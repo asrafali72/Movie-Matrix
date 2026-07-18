@@ -3,7 +3,8 @@ const router = express.Router();
 const { GoogleGenAI } = require('@google/genai');
 
 // POST /api/ai/recommend
-router.post('/recommend', async (req, res) => {
+
+ router.post('/recommend', async (req, res) => {
   try {
     const { prompt } = req.body;
 

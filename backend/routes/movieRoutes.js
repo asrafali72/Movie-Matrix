@@ -17,10 +17,9 @@ router.route('/search').get(searchMovies);
 router.route('/sorted').get(getSortedMovies);
 
 // Admin Routes (Protected)
-router
-  .route('/:id')
-  .get(getMovieById)
-  .put(protect, admin, updateMovie)
-  .delete(protect, admin, deleteMovie);
+router.route('/:id')
+      .get(getMovieById)
+      .put(protect, admin, updateMovie)
+      .delete(protect, admin, deleteMovie);
 
 module.exports = router;
