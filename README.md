@@ -10,7 +10,7 @@ A production-ready Movie Management Platform built using the MERN stack with sec
 - Responsive UI with Material UI
 
 ## 🌐 Live Demo
-Frontend: https://movie-application-frontend.onrender.com 
+Frontend: https://moviematrix-akzu.onrender.com  
 
 Backend API: https://your-api.onrender.com  
 
